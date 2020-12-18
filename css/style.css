@@ -1,0 +1,339 @@
+/* ==== 01. default css===== */
+
+*{  margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&family=Roboto:wght@300;400;500;700;900&display=swap');
+/* 
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif; 
+*/
+
+body{
+    font-family: 'Roboto', sans-serif;  
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 1170px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.container:before,
+.container:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.col-25{
+    width: 25%;
+    padding:0 15px;
+    float: left;
+}
+
+.col-75{
+    width: 75%;
+    padding:0 15px;
+    float: left;
+}
+
+.col-33{
+    width: 33.33%;
+    padding:0 15px;
+    float: left;
+}
+
+.col-50{
+    width: 50%;
+    padding:0 15px;
+    float: left;
+}
+
+.col-40{
+    width: 40%;
+    padding:0 15px;
+    float: left;
+}
+
+.col-60{
+    width: 60%;
+    padding:0 15px;
+    float: left;
+}
+
+
+
+/* === 02 home css */
+
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+p{
+    font-family: 'Roboto', sans-serif; 
+}
+
+.section-padding-top{
+    padding-top: 100px;
+}
+
+.section-padding-bottom{
+    padding-bottom: 100px;
+}
+
+.catagory-section-top{
+    padding-top: 100px;
+}
+
+.catagory-section-bottom{
+    padding-bottom: 100px;
+}
+
+/* === 02 home css */
+
+header{
+    background: #fff;
+}
+
+.logo img{
+    height: 45px;
+    margin-top: 22px;
+}
+
+.main-menu{
+    float: right;
+    padding: 25px 0;
+}
+
+.main-menu ul li{
+    list-style: none;
+    padding: 10px 8px;
+    display: inline-block;
+    
+}
+.main-menu ul li a{
+    font-size: 14px;
+    color: #505050;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif; 
+    transition: 0.2s all ease-in-out;
+}
+
+.main-menu ul li a:hover{
+    color: #ff3115;
+}
+
+.fa-search{
+    color: #ff3115;
+}
+
+.btn a{
+    color: #fff;
+    background-color: #ff3115;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    font-weight: 700;
+    transition: 0.3s all ease-in-out;
+    border-radius: 25px;
+
+}
+
+.btn{
+    clear: both;
+    display: inline-flex;
+    
+}
+
+.btn a:hover{
+    color: #ffffff;
+    font-weight: 700;
+    background-color: rgb(185, 5, 5);
+}
+
+/*-----Home CSS------*/
+.home{
+    background: url(../images/slider1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 800px;
+}
+
+.home-content{
+    padding: 130px 0
+}
+
+.home-content h3{
+    color: #FF3115;
+    font-size: 55px;
+    letter-spacing: 1px;
+    line-height: 90px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+.home-content h1{
+    color: #ffF;
+    font-size: 75px;
+    letter-spacing: 1px;
+    line-height: 75px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+
+.home-content h6{
+    font-size: 20px;
+    color: #FFF;
+    line-height: 32px;
+    'Poppins', sans-serif; 
+    padding: 50px 0;
+    font-weight: 400;
+}
+
+.btn-1 a{
+    color: #fff;
+    background-color: #ff3115;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 15px 30px;
+    font-weight: 700;
+    transition: 0.3s all ease-in-out;
+    border-radius: 25px;
+
+}
+
+.btn-1{
+    clear: both;
+    display: inline-flex;
+    
+}
+
+.btn-1 a:hover{
+    color: #ffffff;
+    font-weight: 700;
+    background-color: rgb(185, 5, 5);
+}
+
+.btn-2 a{
+    color: #333333;
+    background-color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 15px 30px;
+    font-weight: 700;
+    transition: 0.3s all ease-in-out;
+    border-radius: 25px;
+    margin-left: 15px;
+
+}
+
+.btn-2{
+    clear: both;
+    display: inline-flex;
+    
+}
+
+.btn-2 a:hover{
+    color: #ffffff;
+    font-weight: 700;
+    background-color: #ff3315;
+}
+
+/* counter css  */
+.counter{
+    min-height: 200px;
+    background: url(../images/bg3.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 100px;
+}
+
+.counter-item{
+    text-align: center;
+    padding: 50px 0 0 0;
+}
+
+.counter-item i{
+    font-size: 55px;
+    color: #ff3115;
+    
+}
+
+.counter-item h2{
+    font-size: 55px;
+    font-weight: 700;
+    color: #fff;
+    padding: 20px 0;
+       
+}
+
+.counter-item h6{
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+    /* padding: 20px 0; */
+    text-transform: uppercase;
+    padding-bottom: 50px;
+}
+
+
+
+/* Category-all-item css  */
+
+.section-title{
+    text-align: center;
+}
+.section-title h3{
+    font-size: 30px;
+    line-height: 40px;
+    color: #212121;
+}
+
+.section-title h3 span{
+    font-size: 30px;
+    line-height: 40px;
+    color: #ff3115;
+}
+
+.section-title p{
+    padding: 15px 0 20px 0;
+    color: #505050;
+
+}
+.category-item{
+    text-align: center;
+    border: 1px solid gray;
+    background: rgb(228, 229, 230);
+    padding: 40px 15px;
+    margin: 15px 10px;
+}
+
+.category-item  h3{
+    font-size: 20px;
+    font-weight: 700;
+    padding: 20px 0;
+    color: #212121;
+}
+
+.category-item p{
+    font-size: 14px;
+    font-weight: 400;
+    padding: 20px 0;
+    color: #505050;
+    line-height: 26px;
+    padding: 0;
+}
+
